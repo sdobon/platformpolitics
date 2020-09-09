@@ -34,6 +34,7 @@ class NewElection extends Component {
         <Headbar backTo='/'/>
         <div className='electionsContainer'>
           <div className='electionsTitle'>build a new election model:</div>
+          <div className='electionsTitle'>(disabled for cloud deployment):</div>
           <br/><br/>
           <div className='electionsDescription'>Name your election model:</div>
           <input className='electionsInput' type='text' placeholder='name...' onChange={this.handleChangeName} />
